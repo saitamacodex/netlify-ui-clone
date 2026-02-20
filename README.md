@@ -14,5 +14,5 @@ A static frontend clone inspired by the Netlify homepage, built using only HTML 
 - HTML5
 - CSS3
 
-📌 Disclaimer
-This project is created for learning and portfolio purposes only. It is not affiliated with or endorsed by Netlify.
+#### 📌 Disclaimer
+- This project is created for learning and portfolio purposes only. It is not affiliated with or endorsed by Netlify.
