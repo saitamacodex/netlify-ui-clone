@@ -16,3 +16,5 @@ A static frontend clone inspired by the Netlify homepage, built using only HTML 
 
 #### 📌 Disclaimer
 - This project is created for learning and portfolio purposes only. It is not affiliated with or endorsed by Netlify.
+
+### Live Preview https://saitamacodex.github.io/netlify-ui-clone/
