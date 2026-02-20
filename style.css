@@ -37,10 +37,6 @@ header {
   cursor: pointer;
 }
 
-.navbar {
-  width: 100%;
-}
-
 .nav-container {
   width: 77rem;
   margin: 0 auto;
@@ -104,6 +100,10 @@ header {
   text-align: center;
 }
 
+.nav-buttons img {
+  width: 1.4rem;
+}
+
 /* svg arrow in navigation ::after a */
 .nav-items a::after {
   content: "";
@@ -112,8 +112,4 @@ header {
   border-right: 2px solid #ffffff;
   border-bottom: 2px solid #ffffff;
   transform: rotate(45deg);
-}
-
-.nav-buttons img {
-  width: 1.4rem;
 }
