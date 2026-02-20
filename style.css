@@ -19,4 +19,97 @@ body {
     sans-serif;
   background-color: #12181f;
   color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* navbar design */
+header {
+  width: 100%;
+  position: fixed;
+  background: #131920f2;
+}
+
+.logo img {
+  width: 7rem;
+}
+.logo img:hover {
+  cursor: pointer;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.nav-container {
+  width: 76rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-textContainer {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.nav-items ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav-buttons ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.nav-buttons button {
+  background-color: #32e6e2;
+  padding: 0.625rem 1.063rem;
+  border-radius: 16rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid #32e6e2;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* svg design in navigation */
+.nav-items a::after {
+  content: "";
+  width: 0.4rem;
+  height: 0.4rem;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  transform: rotate(45deg);
 }
