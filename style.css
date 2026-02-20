@@ -31,7 +31,7 @@ header {
 }
 
 .logo img {
-  width: 7rem;
+  width: 7.6rem;
 }
 .logo img:hover {
   cursor: pointer;
@@ -42,7 +42,7 @@ header {
 }
 
 .nav-container {
-  width: 76rem;
+  width: 77rem;
   margin: 0 auto;
   padding: 1rem 0;
   display: flex;
@@ -67,7 +67,7 @@ header {
 .nav-items a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 0.999rem;
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
@@ -77,7 +77,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1.4rem;
 }
 
 .nav-buttons ul {
@@ -104,7 +104,7 @@ header {
   text-align: center;
 }
 
-/* svg design in navigation */
+/* svg arrow in navigation ::after a */
 .nav-items a::after {
   content: "";
   width: 0.4rem;
@@ -112,4 +112,8 @@ header {
   border-right: 2px solid #ffffff;
   border-bottom: 2px solid #ffffff;
   transform: rotate(45deg);
+}
+
+.nav-buttons img {
+  width: 1.4rem;
 }
