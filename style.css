@@ -141,3 +141,55 @@ header {
   align-items: center;
   gap: 2rem;
 }
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-text h1 {
+  color: color(srgb 0.9019607843137255 0.9254901960784314 0.9490196078431372);
+  font-size: 4rem;
+  text-wrap: balance;
+}
+
+.cta-text p {
+  font-size: 1.125rem;
+  color: #defffecb;
+  margin-top: 1.5rem;
+}
+
+.cta-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.cta-buttons a {
+  text-decoration: none;
+}
+
+.cta-buttons a:first-child {
+  background-color: #32e6e2;
+  padding: 0.625rem 0.965rem;
+  border-radius: 16rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid #32e6e2;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+}
+
+.cta-buttons a:last-child {
+  color: #32e6e2;
+  padding: 0.625rem 0.965rem;
+  border-radius: 16rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid transparent;
+  cursor: pointer;
+  text-align: center;
+  background-color: color(srgb 1 1 1 / 0.09803921568627451);
+}
