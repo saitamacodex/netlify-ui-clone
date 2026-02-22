@@ -1,3 +1,7 @@
+:root {
+  --container-width: 1200px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +30,9 @@ body {
 /* navbar design */
 header {
   width: 100%;
-  position: fixed;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   background: #131920f2;
 }
 
@@ -38,7 +44,9 @@ header {
 }
 
 .nav-container {
-  width: 77rem;
+  /* width: 77rem; */
+  max-width: var(--container-width);
+  width: 90%;
   margin: 0 auto;
   padding-top: 0.825rem;
   display: flex;
@@ -113,4 +121,23 @@ header {
   border-right: 2px solid #ffffff;
   border-bottom: 2px solid #ffffff;
   transform: rotate(45deg);
+}
+
+/* CTA hero section design */
+.cta-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 6rem 0;
+}
+
+.cta-hero {
+  max-width: var(--container-width);
+  width: 90%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
