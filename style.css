@@ -106,7 +106,7 @@ header {
 }
 
 /* svg arrow in navigation ::after a */
-.nav-items a::after {
+.nav-items li:not(:last-child) a::after {
   content: "";
   width: 0.4rem;
   height: 0.4rem;
