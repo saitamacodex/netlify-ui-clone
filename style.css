@@ -1,5 +1,6 @@
 :root {
   --container-width: 1200px;
+  --filter-invert: invert(1);
 }
 
 * {
@@ -192,4 +193,48 @@ header {
   cursor: pointer;
   text-align: center;
   background-color: color(srgb 1 1 1 / 0.09803921568627451);
+}
+
+.brand-cta {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.brand-cta-container {
+  max-width: var(--container-width);
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 4rem;
+  overflow: hidden;
+  position: relative;
+  /* fade shades on edges */
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+}
+
+.brand-logo {
+  filter: var(--filter-invert);
+}
+
+.brand-ct {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
