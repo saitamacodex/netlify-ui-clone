@@ -239,3 +239,40 @@ header {
     transform: translateX(-100%);
   }
 }
+
+/* platform section design */
+.platform-section {
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.platform-heading {
+  max-width: var(--container-width);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.platform-heading h4 {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #32e6e2;
+  font-weight: 400;
+}
+
+.platform-heading h2 {
+  color: color(srgb 0.9019607843137255 0.9254901960784314 0.9490196078431372);
+  text-wrap: balance;
+  font-size: 4rem;
+  width: 56rem;
+  margin-top: 1.5rem;
+}
+
+.platform-heading p {
+  font-size: 1.125rem;
+  width: 40rem;
+  margin-top: 1.5rem;
+  color: #defffe;
+  text-wrap: balance;
+  line-height: 1.4;
+  font-weight: 200;
+}
