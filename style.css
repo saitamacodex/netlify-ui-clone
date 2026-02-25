@@ -287,11 +287,6 @@ header {
 
 .platfrom-banner-group {
   color: #fff;
-  background: linear-gradient(
-    var(--n-switchback-gradient-angle, 101deg),
-    #0d1818 8.17%,
-    #0c2a2a 56.72%
-  );
   border: 1px solid #d0fffe33;
   border-radius: 0.375rem;
 }
@@ -300,6 +295,11 @@ header {
   display: grid;
   grid-template-columns: 1.6fr 1fr;
   gap: 1rem;
+  background: linear-gradient(
+    var(--n-switchback-gradient-angle, 101deg),
+    #0d1818 8.17%,
+    #0c2a2a 56.72%
+  );
 }
 
 .group-1-svg {
@@ -358,4 +358,28 @@ header {
 
 .group-1-text div > a:hover::after {
   transform: translateX(5px);
+}
+
+.pt-group-2 {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 1rem;
+  background: linear-gradient(
+    var(--n-switchback-gradient-angles, 101deg),
+    #0d1818 8.17%,
+    #0c2a2a 56.72%
+  );
+  margin-top: 4rem;
+}
+
+.pt-group-3 {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 1rem;
+  background: linear-gradient(
+    var(--n-switchback-gradient-angle, 101deg),
+    #0d1818 8.17%,
+    #0c2a2a 56.72%
+  );
+  margin-top: 4rem;
 }
