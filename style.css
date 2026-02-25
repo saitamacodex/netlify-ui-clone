@@ -302,34 +302,34 @@ header {
   );
 }
 
-.group-1-svg {
+.group-svg {
   text-align: center;
   padding: 3rem;
 }
 
-.group-1-text {
+.group-text {
   padding: 2rem;
   display: flex;
   flex-direction: column;
 }
 
-.group-1-text h3 {
+.group-text h3 {
   font-size: 2.3rem;
 }
 
-.group-1-text p {
+.group-text p {
   font-size: 1rem;
   margin-top: 1.5rem;
   font-weight: 350;
   line-height: 1.5;
 }
 
-.group-1-text ul {
+.group-text ul {
   margin-top: 1.5rem;
   list-style-type: none;
 }
 
-.group-1-text ul li {
+.group-text ul li {
   padding: 1rem;
   margin-top: 0.5rem;
   background: #e9ebed1a;
@@ -338,25 +338,25 @@ header {
   font-weight: 300;
 }
 
-.group-1-text div {
+.group-text div {
   margin-top: 1.5rem;
 }
 
-.group-1-text div > a {
+.group-text div > a {
   font-size: 1rem;
   color: #defffe;
   text-decoration: none;
   border-bottom: 1px solid #0be8e0;
 }
 
-.group-1-text div > a::after {
+.group-text div > a::after {
   content: "↗";
   margin-left: 8px;
   display: inline-block;
   transition: transform 0.2s ease;
 }
 
-.group-1-text div > a:hover::after {
+.group-text div > a:hover::after {
   transform: translateX(5px);
 }
 
