@@ -280,7 +280,6 @@ header {
 }
 
 .platform-banner {
-  margin-top: 4rem;
   max-width: var(--container-width);
   width: 90%;
   margin: 4rem auto;
@@ -383,4 +382,54 @@ header {
     #0c2a2a 56.72%
   );
   margin-top: 4rem;
+}
+
+/* primitive section */
+.primitive-section {
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.primitive-heading {
+  max-width: var(--container-width);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.primitive-heading h4 {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #32e6e2;
+  font-weight: 400;
+}
+
+.primitive-heading h2 {
+  color: color(srgb 0.9019607843137255 0.9254901960784314 0.9490196078431372);
+  text-wrap: balance;
+  font-size: 4rem;
+  width: 36rem;
+  margin-top: 1.5rem;
+}
+
+.primitive-heading p {
+  font-size: 1.125rem;
+  width: 50rem;
+  margin-top: 1.5rem;
+  color: #defffe;
+  text-wrap: balance;
+  line-height: 1.4;
+  font-weight: 200;
+}
+
+.primitive-img {
+  max-width: var(--container-width);
+  width: 90%;
+  margin: 4rem auto;
+}
+
+.primitive-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
 }
