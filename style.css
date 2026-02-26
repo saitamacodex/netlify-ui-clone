@@ -433,3 +433,65 @@ header {
   display: block;
   object-fit: cover;
 }
+
+/* conversion block design */
+#section-conversion-panel {
+  width: 100%;
+  padding: 5rem 0;
+  display: grid;
+  place-items: center;
+}
+
+.conversion-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.conversion-block h2 {
+  color: color(srgb 0.9019607843137255 0.9254901960784314 0.9490196078431372);
+  text-wrap: balance;
+  font-size: 4rem;
+}
+
+.conversion-block p {
+  font-size: 1.125rem;
+  margin-top: 1.5rem;
+  color: #defffe;
+  text-align: center;
+  font-weight: 200;
+}
+
+.conversion-block-btn {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.conversion-block-btn a {
+  text-decoration: none;
+}
+
+.conversion-block-btn a:first-child {
+  background-color: #32e6e2;
+  padding: 0.625rem 0.965rem;
+  border-radius: 16rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid #32e6e2;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+}
+
+.conversion-block-btn a:last-child {
+  color: #32e6e2;
+  padding: 0.625rem 0.965rem;
+  border-radius: 16rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid #32e6e2;
+  cursor: pointer;
+  text-align: center;
+}
