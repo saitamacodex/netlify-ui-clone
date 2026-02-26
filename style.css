@@ -495,3 +495,59 @@ header {
   cursor: pointer;
   text-align: center;
 }
+
+/* footer design */
+footer {
+  margin: 6rem 0;
+  background-color: #131920f2;
+}
+
+.footer-block {
+  max-width: var(--container-width);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ft-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ft-social-media {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.ft-social-media a img {
+  width: 1.875rem;
+}
+
+.ft-nav {
+  width: 80%;
+  margin: 3rem auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.ft-nav h3 {
+  color: #7e8792;
+  font-size: 1rem;
+}
+
+.ft-nav ul {
+  margin-top: 1.2rem;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: start;
+}
+
+.ft-nav li a {
+  text-decoration: none;
+  color: #7e8792;
+  font-weight: 200;
+  font-size: 0.875rem;
+}
