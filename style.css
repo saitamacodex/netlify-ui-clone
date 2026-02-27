@@ -551,3 +551,39 @@ footer {
   font-weight: 200;
   font-size: 0.875rem;
 }
+
+.ft-newsletter {
+  margin-top: 4rem;
+  display: grid;
+  place-items: center;
+}
+
+.ft-newsletter h2 {
+  font-size: 1rem;
+  padding: 1rem;
+  color: #7e8792;
+  font-weight: 300;
+}
+
+.ft-newsletter input {
+  padding: 10px;
+  color: #7e8792;
+  background-color: #1e242c;
+  border: 1px solid #3b434c;
+  outline: none;
+  width: 18rem;
+  border-radius: 0.25rem;
+}
+
+.ft-newsletter button {
+  background-color: #32e6e2;
+  padding: 0.5rem 0.965rem;
+  border-radius: 16rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid #32e6e2;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+  margin-left: 1rem;
+}
