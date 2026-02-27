@@ -587,3 +587,25 @@ footer {
   color: black;
   margin-left: 1rem;
 }
+
+.ft-copyrights {
+  margin-top: 6rem;
+  border-top: 1px solid #272f38;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  color: #7e8792;
+  font-weight: 200;
+  font-size: 0.875rem;
+}
+
+.ft-copyrights ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.ft-copyrights li > a {
+  color: #7e8792;
+  text-decoration: none;
+}
