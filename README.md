@@ -12,12 +12,7 @@ It focuses on:
 - CSS positioning and layout techniques
 - Reusable design sections
 
-### 🚀 Features
-
-- Modern SaaS-style landing page design
-- Structured layout using semantic HTML
-- Clean styling with pure CSS
-- Desktop-only implementation
+**- Desktop-only implementation**
 
 ### 🛠 Tech Stack
 
