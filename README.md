@@ -1,6 +1,16 @@
 # Netlify Landing Page Clone
 
-A static frontend clone inspired by the Netlify homepage, built using only HTML and CSS.
+🚀 Project Overview
+
+This project is a static frontend clone created for learning and practice purposes.
+The goal was to recreate a professional SaaS landing page layout using only core web technologies — without any frameworks or JavaScript.
+
+It focuses on:
+- Clean layout structure
+- Semantic HTML
+- Modern UI styling
+- CSS positioning and layout techniques
+- Reusable design sections
 
 ### 🚀 Features
 
