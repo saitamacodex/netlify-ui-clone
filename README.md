@@ -18,9 +18,9 @@ It focuses on:
 
 - HTML5
 - CSS3
-✅ Built completely using pure HTML and CSS
-❌ No JavaScript
-❌ No CSS frameworks (like Tailwind or Bootstrap)
+- ✅ Built completely using pure HTML and CSS
+- ❌ No JavaScript
+- ❌ No CSS frameworks (like Tailwind or Bootstrap)
 
 #### 📌 Disclaimer
 - This project is created for learning and portfolio purposes only. It is not affiliated with or endorsed by Netlify.
