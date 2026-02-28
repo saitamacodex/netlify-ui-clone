@@ -31,10 +31,3 @@ It focuses on:
 - This project is created for learning and portfolio purposes only. It is not affiliated with or endorsed by Netlify.
 
 ### Live Preview https://saitamacodex.github.io/netlify-ui-clone/
-
-### Screenshot
-
-<hr>
-
-<img width="1920" height="5230" alt="netlifyClone" src="https://github.com/user-attachments/assets/433bf97b-6588-4026-8640-78a8f5de3ba7" />
-
