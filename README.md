@@ -24,8 +24,8 @@ It focuses on:
 
 #### 📌 Current Status
 
-Desktop layout completed
-Responsive version (Mobile & Tablet) — Coming soon 🚧
+- Desktop layout completed
+- Responsive version (Mobile & Tablet) — Coming soon 🚧
 
 #### 📌 Disclaimer
 - This project is created for learning and portfolio purposes only. It is not affiliated with or endorsed by Netlify.
