@@ -16,8 +16,6 @@ It focuses on:
 
 ### 🛠 Tech Stack
 
-- HTML5
-- CSS3
 - ✅ Built completely using pure HTML and CSS
 - ❌ No JavaScript
 - ❌ No CSS frameworks (like Tailwind or Bootstrap)
